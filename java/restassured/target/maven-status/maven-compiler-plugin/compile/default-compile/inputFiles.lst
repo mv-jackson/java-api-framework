@@ -1,0 +1,9 @@
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/payloads/request/AuthPayload.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/api/Booking.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/payloads/request/BookingPayload.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/payloads/response/BookingResponse.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/api/Auth.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/payloads/response/AuthResponse.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/payloads/request/BookingDatesPayload.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/payloads/response/BookingDetailsDates.java
+/Users/michael.jackson/Documents/api-framework/java/restassured/src/main/java/com/restfulbooker/api/payloads/response/BookingDetails.java
