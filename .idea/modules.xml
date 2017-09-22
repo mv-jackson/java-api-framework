@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/java/restassured/api-framework.iml" filepath="$PROJECT_DIR$/java/restassured/api-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-api-framework.iml" filepath="$PROJECT_DIR$/.idea/java-api-framework.iml" />
     </modules>
   </component>
