@@ -29,6 +29,7 @@ public class ApiTest {
         Response response = Booking.getBooking(1, "application/json");
 
         assertThat(response.getStatusCode(), is(200));
+        
     }
 
     @Test
