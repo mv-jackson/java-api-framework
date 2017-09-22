@@ -29,7 +29,7 @@ public class ApiTest {
         Response response = Booking.getBooking(1, "application/json");
 
         assertThat(response.getStatusCode(), is(200));
-        
+
     }
 
     @Test
@@ -43,13 +43,15 @@ public class ApiTest {
     public void getLoginDetails()
     {
      AuthPayload authLogin = new AuthPayload.AuthPayloadBuilder()
-            .setUsername("michael")
-            .setPassword("test01")
+            .setUsername("admin")
+            .setPassword("password123")
             .build();
 
-     AuthResponse response = Auth.postAuth(authLogin).as(AuthResponse.class);
-     String token = response.getToken();
-     System.out.println("Token is :" + token);
+     Response response = Auth.postAuth(authLogin);
+     AuthResponse authResponse = response.as(AuthResponse.class);
+     String token = authResponse.getToken();
+     assertThat(response.getStatusCode(),is(200));
+     System.out.println("Token is : " + token);
     }
 
     @Test
