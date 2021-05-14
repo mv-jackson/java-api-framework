@@ -1,13 +1,1 @@
-com/restfulbooker/api/payloads/request/BookingDatesPayload.class
-com/restfulbooker/api/api/Auth.class
-com/restfulbooker/api/payloads/request/AuthPayload.class
-com/restfulbooker/api/payloads/request/BookingPayload$1.class
-com/restfulbooker/api/payloads/response/AuthResponse.class
-com/restfulbooker/api/payloads/response/BookingDetailsDates.class
-com/restfulbooker/api/payloads/request/AuthPayload$AuthPayloadBuilder.class
-com/restfulbooker/api/payloads/response/BookingDetails.class
-com/restfulbooker/api/payloads/request/BookingPayload$BookingPayloadBuilder.class
-com/restfulbooker/api/api/Booking.class
-com/restfulbooker/api/payloads/request/AuthPayload$1.class
-com/restfulbooker/api/payloads/response/BookingResponse.class
-com/restfulbooker/api/payloads/request/BookingPayload.class
+com/bpdts/api/payloads/response/UsersResponseData.class
