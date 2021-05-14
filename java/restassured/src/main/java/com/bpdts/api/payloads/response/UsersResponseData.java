@@ -20,10 +20,18 @@ public class UsersResponseData {
     @Getter @Setter private int latitude;
     @Getter @Setter private int longitude;
 
+
+
+
+
+
     }
 
 
 
 
 
-}
+
+
+
+
