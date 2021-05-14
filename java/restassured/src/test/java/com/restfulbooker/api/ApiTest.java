@@ -20,7 +20,7 @@ public class ApiTest {
     @Test
     public void getBookingShouldReturn200(){
         Response response = Booking.getBookings();
-
+//
         assertThat(response.getStatusCode(), is(200));
     }
 
