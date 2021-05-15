@@ -7,7 +7,9 @@ This framework interogates a public api and is written in Java.
 3. Run mvn compile to build the project
 4. Ensure that the Maven runner is set To Java 11 in your IDE. For IntelliJ go to
 >IntelliJ> Preferences> Build,Execution,Deployment > BuildTools > Maven > Runner
-5.  
+
+<img width="1000" alt="Screenshot 2021-05-15 at 10 59 38" src="https://user-images.githubusercontent.com/32160236/118356714-85c14d00-b56e-11eb-88bd-c98c6c29dba4.png">
+
 
 Coding standards
 The code has been developed according to the folowing recommendations > 
@@ -27,4 +29,6 @@ ApiTest.java - test class containing scenarios below
 Test 1 returns the number of users
 Test 2 returns the number of users who live in London
 Test 3 looks for users within 50 miles radius of London and output the result to console/text file.
+
+
 
