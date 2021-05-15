@@ -6,10 +6,14 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
 
 
 public class FileWriter {
 
+    private static DecimalFormat decimalFormatter = new DecimalFormat("#.##");
     
     public void WriteToFile(JSONObject s,double distance) throws IOException {
 
@@ -22,11 +26,11 @@ public class FileWriter {
         StringBuilder builder = new StringBuilder();
         builder.append("The user: ");
         builder.append(s.get("id"));
-        builder.append(" + ");
+        builder.append(" : ");
         builder.append(s.get("first_name"));
-        builder.append(" + ");
+        builder.append(" ");
         builder.append(s.get("last_name"));
-        builder.append("lives within a " + distance + " mile radius of London");
+        builder.append(" lives within a " + decimalFormatter.format(distance) + " mile radius of London");
 
         return builder;
     }

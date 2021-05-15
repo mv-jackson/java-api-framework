@@ -3,13 +3,11 @@ package com.bpdts.api;
 import com.bpdts.api.api.Calculator;
 import com.bpdts.api.api.FileWriter;
 import com.bpdts.api.api.Users;
-import com.bpdts.api.payloads.response.UsersResponseData;
 import io.restassured.response.Response;
-import net.sf.geographiclib.Geodesic;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Test;
-import net.sf.geographiclib.GeodesicData;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -41,12 +39,7 @@ class ApiTest {
     // radius of London and output the result to console/text file.
     @Test
     public void getUsersWithin50Miles () throws IOException {
-        // 51 deg 30 min 26 sec N
-        double londonLat = 51 + (30 / 60.0) + (26 / 60.0 / 60.0);
-        // 0 deg 7 min 39 sec W
-        double londonLon = 0 - (7 / 60.0) - (39 / 60.0 / 60.0);
-        List<UsersResponseData> qualifyingUsers = new ArrayList<>();
-
+        
         Response response = Users.getUsers();
         JSONArray users = new JSONArray((response.asString()));
 
