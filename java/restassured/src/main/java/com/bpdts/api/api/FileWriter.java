@@ -1,9 +1,12 @@
-package Config;
+package com.bpdts.api.api;
 import org.json.JSONObject;
 
-import java.io.*;
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.nio.file.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+
 
 public class FileWriter {
 

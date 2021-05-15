@@ -21,7 +21,6 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
         <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-api</artifactId>
@@ -37,15 +36,11 @@
             <artifactId>rest-assured</artifactId>
             <version>4.3.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/net.sf.geographiclib/GeographicLib-Java -->
-        <!-- https://mvnrepository.com/artifact/net.sf.geographiclib/GeographicLib-Java -->
         <dependency>
             <groupId>net.sf.geographiclib</groupId>
             <artifactId>GeographicLib-Java</artifactId>
             <version>1.51</version>
         </dependency>
-
-
         <dependency>
             <groupId>org.codehaus.jackson</groupId>
             <artifactId>jackson-mapper-asl</artifactId>
@@ -56,7 +51,6 @@
             <artifactId>jackson-core-asl</artifactId>
             <version>1.9.13</version>
         </dependency>
-
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
@@ -78,8 +72,5 @@
             <artifactId>json</artifactId>
             <version>20210307</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
     </dependencies>
-
 </project>

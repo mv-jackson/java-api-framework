@@ -1,13 +1,9 @@
 package com.bpdts.api.payloads.response;
 
 import lombok.NoArgsConstructor;
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-import org.codehaus.jackson.annotate.JsonProperty;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
-
-//@JsonIgnoreProperties(ignoreUnknown = true)
 
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 public class UsersResponseData {
@@ -20,12 +16,7 @@ public class UsersResponseData {
     @Getter @Setter private int latitude;
     @Getter @Setter private int longitude;
 
-
-
-
-
-
-    }
+}
 
 
 

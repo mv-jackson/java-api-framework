@@ -1,12 +1,7 @@
 package com.bpdts.api.api;
 
-//import com.bpdts.api.payloads.request.AuthPayload;
-import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.given;
-import io.restassured.http.*;
-
 
 public class Users {
 
@@ -19,7 +14,6 @@ public class Users {
 
     }
         public static Response getUsers(){
-
 
             Response response =
                     given()
@@ -35,8 +29,6 @@ public class Users {
         }
     public static Response getLondonUsers(){
         //curl -X GET "https://bpdts-test-app.herokuapp.com/city/London/users" -H "accept: application/json"
-
-
         Response response =
                 given()
                         .header("Accept","application/json")
@@ -49,24 +41,4 @@ public class Users {
         return response;
 
     }
-
-
-//        public static Response getBooking(int id, String mediaType) {
-//            return given().header("Accept", mediaType).get(baseUrl + "/booking/" + Integer.toString(id));
-//        }
-//
-//        public static Response postBooking(BookingPayload payload) {
-//            return given()
-//                    .contentType(ContentType.JSON)
-//                    .body(payload)
-//                    .when()
-//                    .post(baseUrl + "/booking");
-//        }
-//
-//        public static Response deleteBooking(int id, String tokenValue) {
-//            return given()
-//                    .header("Cookie", "token=" + tokenValue)
-//                    .delete(baseUrl + "/booking/" + Integer.toString(id));
-//        }
-//    }
 }
