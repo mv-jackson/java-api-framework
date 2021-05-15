@@ -10,7 +10,7 @@ This framework interogates a public api and is written in Java.
 
 <img width="1000" alt="Screenshot 2021-05-15 at 10 59 38" src="https://user-images.githubusercontent.com/32160236/118356714-85c14d00-b56e-11eb-88bd-c98c6c29dba4.png">
 
-5. Ensure the correct SDK is set for Java
+5. Ensure the correct SDK is set for Java (File > Project Structure)
 
 <img width="1025" alt="Screenshot 2021-05-15 at 11 27 42" src="https://user-images.githubusercontent.com/32160236/118357200-cae67e80-b570-11eb-9e63-ebcde9beff31.png">
 
