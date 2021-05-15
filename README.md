@@ -27,7 +27,9 @@ ApiTest.java - test class containing scenarios below
 
 
 Test 1 returns the number of users
+
 Test 2 returns the number of users who live in London
+
 Test 3 looks for users within 50 miles radius of London and output the result to console/text file.
 
 
