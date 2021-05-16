@@ -1,6 +1,6 @@
 # DWP test api framework
 
-This framework interogates a public api and is written in Java.
+This framework interogates a public api and is written in Java. Developed using the IntelliJ IDE
 
 1. Clone the repository 
 2. The test are executed from the restassured package - cd java/restassured/ for the project
