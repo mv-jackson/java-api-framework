@@ -4,7 +4,8 @@ This framework interogates a public api and is written in Java.
 
 1. Clone the repository 
 2. The test are executed from the restassured package - cd java/restassured/ for the project
-3. Run mvn compile to build the project
+3. Run ```mvn compile``` to build the project
+4. To run the tests ```mvn test```   
 4. Ensure that the Maven runner is set To Java 11 in your IDE. For IntelliJ go to
 >IntelliJ> Preferences> Build,Execution,Deployment > BuildTools > Maven > Runner
 
