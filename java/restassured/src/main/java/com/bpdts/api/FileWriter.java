@@ -1,4 +1,4 @@
-package com.bpdts.api.api;
+package com.bpdts.api;
 import org.json.JSONObject;
 
 import java.io.IOException;

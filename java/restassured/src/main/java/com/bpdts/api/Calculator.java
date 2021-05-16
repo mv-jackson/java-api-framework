@@ -1,4 +1,4 @@
-package com.bpdts.api.api;
+package com.bpdts.api;
 
 import net.sf.geographiclib.Geodesic;
 import net.sf.geographiclib.GeodesicData;

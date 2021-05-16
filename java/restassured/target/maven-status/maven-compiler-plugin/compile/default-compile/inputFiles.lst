@@ -1,10 +1,3 @@
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/payloads/response/BookingDetails.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/payloads/request/AuthPayload.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/api/Users.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/payloads/request/BookingDatesPayload.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/api/Booking.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/payloads/request/BookingPayload.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/api/Auth.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/payloads/response/BookingResponse.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/payloads/response/AuthResponse.java
-/Users/Michael.Jackson2/training/java-api-framework/java/restassured/src/main/java/com/bpdts/api/payloads/response/BookingDetailsDates.java
+/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/src/main/java/com/bpdts/api/api/Users.java
+/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/src/main/java/com/bpdts/api/api/FileWriter.java
+/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/src/main/java/com/bpdts/api/api/Calculator.java

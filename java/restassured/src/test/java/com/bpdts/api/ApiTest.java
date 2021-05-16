@@ -1,8 +1,5 @@
 package com.bpdts.api;
 
-import com.bpdts.api.api.Calculator;
-import com.bpdts.api.api.FileWriter;
-import com.bpdts.api.api.Users;
 import io.restassured.response.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;

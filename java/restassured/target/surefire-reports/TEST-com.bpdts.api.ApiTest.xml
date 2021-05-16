@@ -1,108 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.bpdts.api.ApiTest" time="0.225" errors="1" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.bpdts.api.ApiTest" time="2.939" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="idea.version" value="2020.3.1"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.2+9"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/Michael.Jackson2/training/java-api-framework/java/restassured"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="user.country" value="GB"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/Michael.Jackson2/training/java-api-framework/java/restassured"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.2+9"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/3q/91b2pww116gcmjx496dqgn3w0000gq/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
-    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/Michael.Jackson2/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.15.7"/>
-    <property name="user.home" value="/Users/Michael.Jackson2"/>
-    <property name="user.timezone" value="Europe/London"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="Michael.Jackson2"/>
-    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="java.class.path" value="/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/target/test-classes:/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/target/classes:/Users/Michael.Jackson2/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Michael.Jackson2/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/Michael.Jackson2/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/Michael.Jackson2/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/Michael.Jackson2/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Michael.Jackson2/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/Michael.Jackson2/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/Michael.Jackson2/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Michael.Jackson2/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/Michael.Jackson2/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/Michael.Jackson2/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/Michael.Jackson2/.m2/repository/net/sf/geographiclib/GeographicLib-Java/1.51/GeographicLib-Java-1.51.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/Michael.Jackson2/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar:/Users/Michael.Jackson2/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar:/Users/Michael.Jackson2/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar:/Users/Michael.Jackson2/.m2/repository/org/projectlombok/lombok/1.18.14/lombok-1.18.14.jar:/Users/Michael.Jackson2/.m2/repository/org/json/json/20210307/json-20210307.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.1 install"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/target/surefire/surefirebooter9607792256500654791.jar /Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/target/surefire 2021-05-16T11-58-33_493-jvmRun1 surefire17544284820150690480tmp surefire_012973163251049640301tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/target/test-classes:/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/target/classes:/Users/Michael.Jackson2/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Michael.Jackson2/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar:/Users/Michael.Jackson2/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/Michael.Jackson2/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/Users/Michael.Jackson2/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/Michael.Jackson2/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Michael.Jackson2/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/Michael.Jackson2/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/Michael.Jackson2/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/Michael.Jackson2/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Michael.Jackson2/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/Michael.Jackson2/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/Michael.Jackson2/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/Michael.Jackson2/.m2/repository/net/sf/geographiclib/GeographicLib-Java/1.51/GeographicLib-Java-1.51.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar:/Users/Michael.Jackson2/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar:/Users/Michael.Jackson2/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar:/Users/Michael.Jackson2/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar:/Users/Michael.Jackson2/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar:/Users/Michael.Jackson2/.m2/repository/org/projectlombok/lombok/1.18.14/lombok-1.18.14.jar:/Users/Michael.Jackson2/.m2/repository/org/json/json/20210307/json-20210307.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/Michael.Jackson2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.2"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2019-01-15"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="basedir" value="/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured/target/surefire/surefirebooter9607792256500654791.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="Michael.Jackson2"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/Michael.Jackson2/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/3q/91b2pww116gcmjx496dqgn3w0000gq/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/Michael.Jackson2/Documents/java-api-framework/java/restassured"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/Michael.Jackson2/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase classname="com.bpdts.api.ApiTest" name="getBookingShouldReturn200" time="0.225">
-    <error message="javax/xml/bind/JAXBException" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
-	at io.restassured.config.ObjectMapperConfig.&lt;init&gt;(ObjectMapperConfig.java:49)
-	at io.restassured.config.RestAssuredConfig.&lt;init&gt;(RestAssuredConfig.java:41)
-	at io.restassured.RestAssured.&lt;clinit&gt;(RestAssured.java:420)
-	at com.bpdts.api.api.Users.getUsers(Users.java:17)
-	at com.bpdts.api.ApiTest.getBookingShouldReturn200(ApiTest.java:15)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBException
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	... 34 more
-</error>
-  </testcase>
+  <testcase name="getLondonUsers" classname="com.bpdts.api.ApiTest" time="1.753"/>
+  <testcase name="getUsersWithin50Miles" classname="com.bpdts.api.ApiTest" time="0.545"/>
+  <testcase name="getTheNumberOfUsers" classname="com.bpdts.api.ApiTest" time="0.637"/>
 </testsuite>
